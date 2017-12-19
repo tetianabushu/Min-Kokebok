@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="400dp"
+    android:layout_height="50dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="10dp"
+
+    android:background="@android:color/background_light"
+    android:paddingRight="-15dp"
+    android:paddingTop="7dp"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/kalender_list_item_tittel"
+        android:layout_width="325dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_weight="0.46"
+        android:fontFamily="casual"
+        android:gravity="center_horizontal"
+        android:onClick="openOppskrift"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/slett_oppskrift_fra_kalender"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:onClick="sletteFraKalender"
+        app:srcCompat="@drawable/slette_kalender_item" />
+
+</LinearLayout>

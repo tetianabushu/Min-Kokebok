@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.bushu.mineoppskrifter.AddOppskrift">
+    <item
+        android:id="@+id/velg_gallery"
+        android:orderInCategory="100"
+        android:icon="@drawable/gallery_icon"
+        android:title="@string/galleri_menu_item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/ta_bildet"
+        android:orderInCategory="100"
+        android:icon="@drawable/camera_icon"
+        android:title="@string/kamera_menu_item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/delete_item"
+        android:orderInCategory="100"
+        android:icon="@drawable/delete"
+        android:title="@string/slett_menu_item"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/save_item"
+        android:orderInCategory="100"
+        android:icon="@drawable/save_icon"
+        android:title="@string/lagre_menu_item"
+        app:showAsAction="always" />
+</menu>

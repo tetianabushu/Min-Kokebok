@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout3"
+        android:layout_width="410dp"
+        android:layout_height="55dp"
+        android:layout_column="0"
+        android:layout_marginBottom="65dp"
+        app:layout_constraintBottom_toTopOf="@+id/kalender_view"
+        app:layout_constraintRight_toRightOf="@+id/moned_dato_toolbar">
+
+        <include
+            layout="@layout/toolbar"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/moned_dato_toolbar"
+        android:layout_width="410dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="8dp"
+        android:background="#d6e7f9"
+        app:layout_constraintBottom_toTopOf="@+id/kalender_view"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/appBarLayout3"
+        app:layout_constraintVertical_bias="0.979"
+        app:subtitleTextAppearance="@style/TextAppearance.AppCompat">
+
+    </android.support.v7.widget.Toolbar>
+
+    <com.github.sundeepk.compactcalendarview.CompactCalendarView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/kalender_view"
+        android:layout_width="409dp"
+        android:layout_height="228dp"
+        android:layout_marginTop="117dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:compactCalendarBackgroundColor="#d6e7f9"
+        app:compactCalendarCurrentDayBackgroundColor="#f4faff"
+        app:compactCalendarCurrentDayIndicatorStyle="fill_large_indicator"
+        app:compactCalendarCurrentSelectedDayBackgroundColor="#80b3ff"
+        app:compactCalendarMultiEventIndicatorColor="#ff5c33"
+        app:compactCalendarTargetHeight="250dp"
+        app:compactCalendarTextColor="#000000"
+        app:compactCalendarTextSize="14dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <ListView
+        android:id="@+id/vise_oppskrift_tittel"
+        android:layout_width="393dp"
+        android:layout_height="276dp"
+
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kalender_view"
+        app:layout_constraintVertical_bias="0.142" />
+
+</android.support.constraint.ConstraintLayout>

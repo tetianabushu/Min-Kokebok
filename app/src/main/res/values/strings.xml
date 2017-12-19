@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Min kokebok</string>
+    <string name="oppskrift_slettet_warning">Oppskrift er slettet</string>
+    <string name="kalender_menu_item">kalender icon</string>
+    <string name="galleri_menu_item">galleri ikon</string>
+    <string name="kamera_menu_item">kamera ikon</string>
+    <string name="liste_menu_item">liste_icon</string>
+    <string name="slett_menu_item">slette_icon</string>
+    <string name="lagre_menu_item">lagre_icon</string>
+
+    <string name="hele_oppskr_id">HeleOppskId</string>
+    <string name="validering_av_larging">Oppgi tittel og oppskrift tekst!</string>
+    <string name="legge_til_oppskrt_log">legger til oppskrift tabell</string>
+    <string name="legg_til_oppskr_db_ex">Legginn oppskr:</string>
+    <string name="legginn_oppskrift_i_kal_db">Legginn oppskrift i kal</string>
+    <string name="legginn_bildet_i_kal_db">Legg til bildet</string>
+    <string name="simple_date_format">yyyyMMdd_HHmmss</string>
+    <string name="rediger_menu_item">rediger_icon</string>
+    <string name="linsesuppe">LINSESUPPE MED LAM</string>
+    <string name="linsesuppe_oppskrift">
+        Suppen er enkel og relativt kjapp å lage, og er ypperlig å servere dersom dere er mange rundt bordet. Til ca. 4 porsjoner trenger du omtrent:
+
+    600 g lammekjøtt, i strimler
+    ca. 1 1/2 ts spisskummen
+    nøytral matolje
+    10-12 dl vann
+    ca. 600 g hermetiske tomater, hakket
+    1 stjerneanis (kan sløyfes)
+    200 g tørre grønne linser (eller 200 g kokte grønne/røde linser)
+    1 løk, finhakket
+    1 rød paprika, i biter
+    1 gul paprika, i biter
+    4 hvitløksfedd, finhakket
+    1 rød chili, finhakket
+    1 ss frisk, revet ingefær
+    1 ss tomatpuré
+    1-2 ss konsentrert kyllingfond eller 1 buljongterning (smak til)
+    salt og pepper
+    frisk koriander
+
+    Skjær kjøttet i tynne strimler. Du kan her benytte grytekjøtt av lam, som for eksempel bog eller lår. Krydre kjøttet med spisskummen, salt og pepper, og stek det raskt i en varm stekepanne i to omganger. Bruk gjerne litt av vannet til å koke ut alle de gode smakene fra stekepannen. Ha kjøttet i en liten gryte, tilsett vann, hermetiske tomater og stjerneanis. Skyll linsene under rennende vann og ha dem i gryten. La kjøtt og linser trekke på lav varme mens du tilbereder de øvrige ingrediensene. (*Dersom du benytter ferdigkokte linser isteden må du vente med å tilsette dem til mot slutten av trekketiden – sjekk anbefalt koketid på emballasjen.)
+
+    Fres løken i litt olje til den er blank og myk, og tilsett deretter paprika, hvitløk, chili og ingefær. La det surre med et par minutter, men uten av hvitløken tar farge. Tilsett tomatpuréen, rør godt sammen, og la det surre i ytterligere 1 minutt. Tilsett blandingen i gryten sammen med kjøttet og linsene, og rør godt sammen. La suppen trekke på middels varme i tilsammen 45-60 minutter, til kjøttet er mørt og linsene er ferdigkokte. Krydre suppen med salt og pepper, eventuelt litt mer spisskummen, og smak eventuelt til med litt kyllingfond eller en buljongterning, om nødvendig.
+
+    Servér suppen rykende varm med hakket koriander og med godt brød, for eksempel eltefritt landbrød, som tilbehør.
+    </string>
+
+    <string name="ribbe">RIBBE</string>
+    <string name="ribbe_oppskrift">
+        "2 kg tynnribbe eller familieribbe\n"
+    "3 ts salt\n"
+    "2 ts pepper\n"
+    "ca. 2 dl vann\n"
+
+"DU TRENGER: TYNNRIBBE, SALT, PEPPER OG VANN.\n\n"
+"1. Skjær gjennom svoren og litt ned i spekket med en skarp, spiss kniv. Hvis du ruter opp parallelt med ribbeina blir det"
+        "lettere å skjære opp pene biter etter steking. Gni inn ribben med salt og pepper, pakk den inn i folie og la den stå i kjøleskap i 2-3 dager.\n"
+"2. Legg ribba i langpanna med svoren opp. Legg en asjett opp ned under ribba, slik at den blir litt høyere på midten (da renner det smeltede fettet bort)."
+        "Det er viktig at ribba er noenlunde like høy på begge sider for å få et jevnt og pent resultat. Du kan også bruke en ball av folie til å støtte opp ribba. \n"
+        "Hell på vann og dekk formen med aluminiumfolie. Det er viktig at folien er helt tett, for at dampingen skal bli vellykket.\n"
+
+"3. Forvarm ovnen til 230 °C. Sett langpanna midt i ovnen og damp i ca. 45 minutter. Nå "blåser" ribba seg litt opp og svoren spriker.\n"
+"4. Fjern folien og reduser temperaturen til 200 °C. Sett ribben tilbake midt i ovnen og stek videre i ca. 1-1 1/2 time."
+        "Uansett om ribben veier lite eller mye, er steketiden like lang. Dette kommer av at tykkelsen er den samme om ribba er lett eller tung."
+        "La ribben hvile i 20 minutter før du skjærer i den.Saftig og god ribbe med sprø svor klar til servering."
+        "Tradisjonen tro blir dette ofte servert med surkål eller rødkål, kokte poteter, svisker, epler, stekesjy eller saus og rørte tyttebær."
+</string>
+    <string name="bildet_fjernet">Bildet fjernet</string>
+    <string name="oppskrift_slettet">slettet</string>
+    <string name="finne_oppskrift_db">finne opskrift</string>
+    <string name="finne_oppskr_den_dato_db">Finne oppskr med dato i db</string>
+    <string name="alert_slette_oppskrift">Vil du slette oppskrift?</string>
+    <string name="valgt_id">valgtId</string>
+    <string name="hele_oppsk_id">HeleOppskId</string>
+    <string name="hele_oppskrift_id">HeleOppskriftId</string>
+    <string name="simple_date_format_kal">dd/MM/yyyy</string>
+    <string name="toast_opprsk_lagt_til">Oppskrift er lagt til: </string>
+
+</resources>
